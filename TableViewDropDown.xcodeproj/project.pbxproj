@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		744232F1209B6EAA00BE5EB2 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744232F0209B6EAA00BE5EB2 /* ExpandableHeaderView.swift */; };
 		74EAB54520978DD700BEA04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAB54420978DD700BEA04F /* AppDelegate.swift */; };
 		74EAB54720978DD700BEA04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAB54620978DD700BEA04F /* ViewController.swift */; };
 		74EAB54A20978DD700BEA04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74EAB54820978DD700BEA04F /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		74EAB54F20978DD700BEA04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74EAB54D20978DD700BEA04F /* LaunchScreen.storyboard */; };
 		74EAB55A20978DD700BEA04F /* TableViewDropDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAB55920978DD700BEA04F /* TableViewDropDownTests.swift */; };
 		74EAB56520978DD800BEA04F /* TableViewDropDownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAB56420978DD800BEA04F /* TableViewDropDownUITests.swift */; };
+		74EAB5762097913000BEA04F /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EAB5752097913000BEA04F /* Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		744232F0209B6EAA00BE5EB2 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
 		74EAB54120978DD700BEA04F /* TableViewDropDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDropDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EAB54420978DD700BEA04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74EAB54620978DD700BEA04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		74EAB56020978DD700BEA04F /* TableViewDropDownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDropDownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EAB56420978DD800BEA04F /* TableViewDropDownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDropDownUITests.swift; sourceTree = "<group>"; };
 		74EAB56620978DD800BEA04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74EAB5752097913000BEA04F /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		74EAB54320978DD700BEA04F /* TableViewDropDown */ = {
 			isa = PBXGroup;
 			children = (
+				74EAB57220978E9900BEA04F /* ExpandableHeaderView */,
 				74EAB54420978DD700BEA04F /* AppDelegate.swift */,
 				74EAB54620978DD700BEA04F /* ViewController.swift */,
 				74EAB54820978DD700BEA04F /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				74EAB56620978DD800BEA04F /* Info.plist */,
 			);
 			path = TableViewDropDownUITests;
+			sourceTree = "<group>";
+		};
+		74EAB57220978E9900BEA04F /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				74EAB5752097913000BEA04F /* Section.swift */,
+				744232F0209B6EAA00BE5EB2 /* ExpandableHeaderView.swift */,
+			);
+			path = ExpandableHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74EAB5762097913000BEA04F /* Section.swift in Sources */,
+				744232F1209B6EAA00BE5EB2 /* ExpandableHeaderView.swift in Sources */,
 				74EAB54720978DD700BEA04F /* ViewController.swift in Sources */,
 				74EAB54520978DD700BEA04F /* AppDelegate.swift in Sources */,
 			);
